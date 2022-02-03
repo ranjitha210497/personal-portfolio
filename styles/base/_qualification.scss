@@ -1,0 +1,17 @@
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: $color-primary;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .line {
+    height: 60px;
+    width: 1px;
+    background-color: $color-primary;
+    border-radius: 2px;
+    display: inline-block;
+    margin-top: -1px;
+    margin-left: 5.5px;
+  }

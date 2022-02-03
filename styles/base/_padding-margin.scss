@@ -1,0 +1,38 @@
+//margin
+$padding-upto: 1000;
+$margin-upto: 1000;
+
+
+
+// padding 1 to 100
+@for $i from 0 through $padding-upto {
+	@each $location in top, bottom, left, right {
+		// padding-top-1
+		.padding-#{$location}-#{$i}{
+			padding-#{$location}: $i + px !important;
+		}
+
+	}
+    .padding-#{$i} {
+        padding: $i + px !important;
+    }
+
+}
+
+//margin 1 to 100
+@for $i from 0 through $margin-upto {
+	@each $location in top, bottom, left, right {
+		//margin-top-1
+		.margin-#{$location}-#{$i}{
+			margin-#{$location}: $i + px !important;
+		}
+	}
+    .margin-#{$i} {
+        margin: $i + px !important;
+    }
+}
+
+.margin-0 {
+	margin: 0px !important
+}
+
