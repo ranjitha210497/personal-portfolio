@@ -1,0 +1,11 @@
+progress[value]{
+    width: 250px;
+    height: 20px;
+  }
+
+.frontend-developer {
+  flex-direction: row;
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+  }
+}

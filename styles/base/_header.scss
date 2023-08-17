@@ -1,0 +1,9 @@
+@media screen and (min-width: 992px) {
+    .nav-bar {
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        background-color: $color-bg;
+        box-shadow: 0 0 8px 0 #F0F8FF;
+    }
+}

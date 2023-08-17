@@ -1,0 +1,106 @@
+.name {
+    font-weight: 500;
+    font-size: 48px
+}
+
+.contact-me-button {
+  height: 50px;
+}
+
+.footer-right {
+  display: inline-flex;
+  align-items: center;
+  position: fixed;
+  right: 20px;
+}
+
+.menu {
+  position: fixed;
+  bottom: 0px;
+  z-index: 5;
+  background-color: $color-bg;
+  width: 100vw;
+  left: 0;
+  height: 220px;
+  transition: height 1s;
+  box-shadow: 8px 0 0 0 #eee;
+}
+
+
+@media screen and (max-width: 992px) {
+    .nav-bar {
+      display: none;
+    }
+    .social-media {
+      padding: 20px;
+    }
+
+    .intro {
+      display: flex;
+      flex-direction: column-reverse;
+      margin-left: 30px;
+      margin-top: 10px;
+    }
+
+    .summary {
+      width: 80vw;
+      position: absolute;
+      left: 40px;
+      top: 250px;
+    }
+
+    .profilepic {
+      margin-left: 80vw;
+    }
+
+    .name {
+      font-weight: 500;
+      font-size: 36px;
+    }
+
+    .footer {
+      position: fixed;
+      display: inline-flex;
+      align-items: center;
+      background-color: $color-bg;
+      height: 50px;
+      width: 100vw;
+      left: 0;
+      bottom: 0;
+      padding-left: 20px;
+      padding-right: 20px;
+      z-index: 5;
+      box-shadow: 8px 0 0 0 #eee;
+    }
+
+    .scroll-down {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .social-media {
+      padding: 80px;
+    }
+    .intro {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .summary {
+      width: 30vw;
+    }
+
+    .name {
+      font-weight: 500;
+      font-size: 48px
+    }
+
+    .footer {
+      display: none;
+    }
+    
+    .menu {
+      display: none;
+    }
+  }
