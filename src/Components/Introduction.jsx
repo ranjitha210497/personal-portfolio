@@ -15,7 +15,7 @@ export const Introduction = (props) => {
               <p className="grey fs-12 margin-0">Companies worked</p>
             </div>
           </div>
-          <a href="/ranjitha-resume-jun-2023.pdf" download>
+          <a href="/Ranjitha_Resume.pdf" download>
             <button className="contact-me-button margin-top-20 margin-left-100">
               Download CV
               <img
